@@ -1,0 +1,134 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #FDFD96; /* Light yellow for a fun, playful background */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #FF69B4; /* Bright pink for a lively header */
+}
+
+/* Styling for columns to be side by side */
+.column1 {
+    width: 18%;
+    margin: 1%;
+    float: left;
+    background-color: rebeccapurple; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.column2 {
+    width: 18%;
+    margin: 1%;
+    float: left;
+    background-color: skyblue; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #32CD32; /* Lime green for headings to add color variety */
+}
+
+.column3 {
+    width: 18%;
+    margin: 1%;
+    float: left;
+    background-color: lime; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.column4 {
+    width: 18%;
+    margin: 1%;
+    float: left;
+    background-color: orange; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.column5 {
+    width: 18%;
+    margin: 1%;
+    float: left;
+    background-color: pink; 
+    padding: 10px;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #87CEEB; /* Sky blue for buttons */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.05); /* Slight increase in size on hover for interactivity */
+}
+
+/* Styling for the story output and special buttons */
+.story, #generateButton, #Playback, #Adventure {
+    clear: both;
+    padding-top: 20px;
+}
+
+.story {
+    background-color: #FFFFFF; /* White background for the story area */
+    border: 3px dashed #FF69B4; /* Dashed pink border for fun */
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#storyText {
+    min-height: 100px; /* Ensures space for the story */
+    text-align: left;
+}
+
+#generateButton, #Playback, #Adventure {
+    background-color: #FF4500; /* Orange-red for action buttons */
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#generateButton:hover, #Playback:hover, #Adventure:hover {
+    background-color: #DC143C; /* Darker red on hover for visual feedback */
+}

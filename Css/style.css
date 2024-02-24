@@ -120,7 +120,7 @@ button:hover {
     text-align: left;
 }
 
-#generateButton, #Playback, #Adventure {
+#generateButton, #Playback {
     background-color: #FF4500; /* Orange-red for action buttons */
     color: white;
     padding: 10px 20px;
@@ -129,6 +129,6 @@ button:hover {
     border-radius: 5px;
 }
 
-#generateButton:hover, #Playback:hover, #Adventure:hover {
+#generateButton:hover, #Playback:hover{
     background-color: #DC143C; /* Darker red on hover for visual feedback */
 }
